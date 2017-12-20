@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Team_Project</string>
+    <string name="JieMianName">设置</string>
+    <string name="GuiZeXiTong">规则系统</string>
+    <string name="GuiZeXitongMingXi">规则系统明细</string>
+    <string name="GuiZeWenBen"> \t\t\t\t您可以自定义一个规则项目，在一段时间内规则系统会对您进行每日的监督哦。\n
+            \t\t\t\t如果违反了规则，您会受到规则系统带来的惩罚：丢失一段您曾经写下的记录，这个记录可能来自过去，也可能来自未来。\n
+            \t\t\t\t如果实在不小心丢了记录也没关系啦，可以在七天内用点数找回。\n
+           \t\t\t\t注意：开启以后在到期为止是不能关闭的。\n
+           \t\t\t\t嘿嘿，让我们一起来好好使用它吧！</string>
+    <string name="TaShanZhiShi">他山之石</string>
+    <string name="WeiGuiMingXi">违规明细</string>
+    <string name="WeiGuiYuanYin">违规原因</string>
+    <string name="WeiGuiTime">违规日期</string>
+    <string name="FengYinTime">封印日期</string>
+    <string name="CaoZuo">操作</string>
+    <string name="RiPai">日拍</string>
+    <string name="MeiTianYiPai">每天一拍，记录生活的美</string>
+    <string name="SuiShouJiLuSHDD">随手记录生活点滴</string>
+    <string name="GuShiJi">故事集</string>
+    <string name="GuiHua">所有规划</string>
+    <string name="BeiWang">我的备忘</string>
+    <string name="title_activity_gengduo_gn">GengduoGNActivity</string>
+    <string name="RiLi">日历</string>
+    <string name="RiJi">日记</string>
+    <string name="RiPaiGN">日拍</string>
+    <string name="GengDuo">更多</string>
+    <string name="ZuJI">我的足迹</string>
+    <string name="XinRiJi">新日记</string>
+    <string name="BianJiRiJi">编辑日记</string>
+    <string name="ChaKanRiJi">查看日记</string>
+    <string name="BianJiBeiWang">编辑备忘</string>
+    <string name="BianJiGuiHua">编辑规划</string>
+    <string name="ChaKanBeiWang">查看备忘</string>
+    <string name="wodezuji">我的足迹</string>
+    <string name="meiriguihua">每日规划</string>
+    <string name="wodebeiwang">我的备忘</string>
+    <string name="tashanzhishi">他山之石</string>
+    <string name="weiguicishu">违规次数</string>
+    <string name="wodedianshu">我的点数</string>
+    <string name="title_activity_dilan">DilanActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_daohanglan">DaohanglanActivity</string>
+</resources>

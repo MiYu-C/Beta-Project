@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zws.team_project.WeiguiActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/dinglan"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/fanhui"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:onClick="weiguicishuBT"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_black_24dp" />
+
+    <TextView
+        android:id="@+id/WeiGuiMingXi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/WeiGuiMingXi"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@+id/toolbar4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/WeiGuiYuanYin"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
+        android:text="@string/WeiGuiYuanYin"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="32dp" />
+
+    <TextView
+        android:id="@+id/WeiGuiTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/WeiGuiTime"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="136dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="128dp" />
+
+    <TextView
+        android:id="@+id/FengYinTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/FengYinTime"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="224dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="224dp" />
+    <TextView
+        android:id="@+id/CaoZuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CaoZuo"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="240dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="320dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:background="#9D9D9D"
+        android:visibility="visible"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar4"
+        android:layout_marginTop="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+
+</android.support.constraint.ConstraintLayout>
