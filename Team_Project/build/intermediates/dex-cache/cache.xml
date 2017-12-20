@@ -12,6 +12,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="D:\AndriodProject\Team_Project\app\libs\BaiduLBS_Android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="322053048ec9cc06e065c3b1b9c48af2009ddcd8">
+        <dex dex="D:\AndriodProject\Team_Project\app\build\intermediates\pre-dexed\debug\BaiduLBS_Android_c7539a56e01fc916a03a5ce81025dc665575e08c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Orimol\.android\build-cache\8fa6323504de35a4c1120d3bb5f22daca549bdf7\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
