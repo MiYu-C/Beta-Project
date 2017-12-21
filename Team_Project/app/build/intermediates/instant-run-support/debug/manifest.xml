@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.zws.team_project"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.zws.team_project.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zws.team_project.BeiwangActivity" />
+        <activity android:name="com.zws.team_project.WeiguiActivity" />
+        <activity android:name="com.zws.team_project.TashanZSActivity" />
+        <activity android:name="com.zws.team_project.SuoyouGuihuaActivity" />
+        <activity android:name="com.zws.team_project.ZujiActivity" />
+        <activity android:name="com.zws.team_project.XinrijiActivity" />
+        <activity android:name="com.zws.team_project.BianjirijiActivity" />
+        <activity android:name="com.zws.team_project.ChakanrijiActivity" />
+        <activity android:name="com.zws.team_project.xinbeiwangActivity" />
+        <activity android:name="com.zws.team_project.XinguihuaActivity" />
+        <activity android:name="com.zws.team_project.DianshuActivity" />
+        <activity android:name="com.zws.team_project.ChakanbeiwangActivity" />
+        <activity android:name="com.zws.team_project.ShezhiActivity" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="com.zws.team_project.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

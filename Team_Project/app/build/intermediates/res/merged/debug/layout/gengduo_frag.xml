@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F0F0F0"
+        tools:context="com.zws.team_project.GengduoActivity">
+        <!--android:drawableLeft="@drawable/ic_location_on_black_24dp"-->
+        <!--android:drawableLeft="@drawable/ic_guihua_black_24dp"-->
+        <!--android:drawableLeft="@drawable/ic_beiwang_24dp"-->
+        <!--android:drawableLeft="@drawable/ic_tashanzhishi_eye_black_24dp"-->
+
+        <Button
+            android:id="@+id/zuji"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="232dp"
+            android:background="@color/colorswhite"
+            android:drawableLeft="@drawable/ic_location_on_black_24dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:onClick="zujiBT"
+            android:paddingLeft="30dp"
+            android:text="@string/wodezuji"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/guihua"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="285dp"
+            android:background="@color/colorswhite"
+            android:drawableLeft="@drawable/ic_guihua_black_24dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:onClick="guihuaBT"
+            android:paddingLeft="30dp"
+            android:text="@string/meiriguihua"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/beiwang"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="338dp"
+            android:background="@color/colorswhite"
+            android:drawableLeft="@drawable/ic_beiwang_24dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:onClick="beiwangBT"
+            android:paddingLeft="30dp"
+            android:text="@string/wodebeiwang"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/tashanzhishi"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="391dp"
+            android:background="@color/colorswhite"
+            android:drawableLeft="@drawable/ic_tashanzhishi_eye_black_24dp"
+            android:drawablePadding="20dp"
+            android:gravity="center_vertical"
+            android:onClick="tashanzhishiBT"
+            android:paddingLeft="30dp"
+            android:text="@string/tashanzhishi"
+            android:textSize="20sp"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar4"
+            android:layout_width="0dp"
+            android:layout_height="230dp"
+            android:background="@mipmap/dinglan"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            android:visibility="visible"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageButton
+            android:id="@+id/shezhi"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:background="#00000000"
+            android:onClick="shezhiBT"
+            android:scaleType="fitXY"
+            android:visibility="visible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_shezhi_black_24dp" />
+
+        <Button
+            android:id="@+id/weiguicishu"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginTop="183dp"
+            android:background="#00000000"
+            android:onClick="weiguicishuBT"
+            android:scaleType="fitXY"
+            android:text="@string/weiguicishu"
+            android:visibility="visible"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/wodedianshu"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="183dp"
+            android:background="#00000000"
+            android:onClick="wodedianshuBT"
+            android:scaleType="fitXY"
+            android:text="@string/wodedianshu"
+            android:visibility="visible"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="58dp"
+            android:scaleType="fitXY"
+            android:background="@android:color/transparent"
+            android:onClick="userinfo"
+            app:layout_constraintLeft_toLeftOf="@+id/toolbar4"
+            app:layout_constraintRight_toRightOf="@+id/toolbar4"
+            app:layout_constraintTop_toTopOf="@+id/toolbar4"
+            app:srcCompat="@mipmap/ic_launcher_round" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
+

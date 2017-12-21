@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/isShortPlanning"
+            android:layout_width="30dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="89dp"
+            android:text="长期"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/textviewbackgd"
+            android:color="#9D9D9D"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/planningDate"
+            android:layout_width="60dp"
+            android:layout_height="59dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="89dp"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/textviewbackgd"
+            android:color="#9D9D9D"
+
+            app:layout_constraintLeft_toRightOf="@+id/isShortPlanning"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/planningText"
+            android:layout_width="160dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="89dp"
+            android:background="@drawable/textviewbackgd"
+            android:color="#9D9D9D"
+            android:gravity="center"
+
+            android:text="TextView"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toRightOf="@+id/planningDate"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/isFinish"
+            android:layout_width="65dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="89dp"
+            android:text="未完成"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="@drawable/textviewbackgd"
+            android:color="#9D9D9D"
+
+            app:layout_constraintLeft_toRightOf="@+id/planningText"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/SystemcDate"
+            android:layout_width="111dp"
+            android:layout_height="23dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:text="TextView"
+
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/planningText"
+            app:layout_constraintLeft_toLeftOf="parent"
+            tools:layout_editor_absoluteY="58dp" />
+
+        <ImageButton
+            android:id="@+id/dacha"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="11dp"
+            android:background="#00000000"
+            app:layout_constraintBottom_toBottomOf="@+id/isFinish"
+            app:layout_constraintLeft_toRightOf="@+id/isFinish"
+            app:srcCompat="@android:drawable/ic_delete" />
+
+        <ImageButton
+            android:id="@+id/dagou"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:background="#00000000"
+            app:srcCompat="@drawable/ic_gou_24dp"
+            app:layout_constraintLeft_toRightOf="@+id/isFinish"
+            android:layout_marginLeft="11dp"
+            app:layout_constraintTop_toTopOf="@+id/planningText"
+            android:layout_marginTop="0dp" />
+
+        <!--<ImageButton-->
+            <!--android:id="@+id/imageButton"-->
+            <!--android:layout_width="40dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginEnd="16dp"-->
+            <!--android:layout_marginRight="42dp"-->
+            <!--android:layout_marginTop="158dp"-->
+            <!--android:background="#00000000"-->
+            <!--android:onClick="shanchu"-->
+            <!--android:scaleType="fitXY"-->
+            <!--app:layout_constraintRight_toRightOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent"-->
+            <!--app:srcCompat="@drawable/ic_delete_black_24dp" />-->
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout>

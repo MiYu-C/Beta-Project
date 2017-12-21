@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="563dp"
+    tools:context="com.zws.team_project.ShezhiActivity"
+    tools:layout_editor_absoluteY="2dp"
+
+    app:layout_constraintLeft_toLeftOf="parent">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar4"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:background="@mipmap/dinglan"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="243dp"
+        android:layout_marginRight="243dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/JieMianName"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="@+id/toolbar4"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="243dp"
+        android:layout_marginEnd="243dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/GuiZeXiTong"
+        android:textSize="20sp"
+        android:visibility="visible"
+        android:layout_marginLeft="40dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="75dp"
+        android:layout_marginStart="40dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#9D9D9D"
+        android:visibility="visible"
+        android:layout_marginLeft="27dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="27dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/toolbar4"
+        android:layout_marginTop="115dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/GuiZeXitongMingXi"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="140dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="27dp"
+        android:background="#9D9D9D"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="27dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="1dp"
+        android:background="#9D9D9D"
+        android:visibility="visible"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="27dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="27dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="323dp"
+        android:layout_height="305dp"
+        android:background="@drawable/textviewbackgd"
+        android:color="#9D9D9D"
+        android:text="@string/GuiZeWenBen"
+        android:textSize="18sp"
+        android:visibility="visible"
+        android:layout_marginLeft="27dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginRight="27dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:layout_marginStart="27dp"
+        android:layout_marginEnd="27dp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintLeft_creator="1" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="70dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="55dp"
+        android:height="55dp"
+        android:background="@android:color/transparent"
+        android:switchMinWidth="55dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:checked="false" />
+
+    <ImageButton
+        android:id="@+id/fanhui"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="#00000000"
+        android:onClick="fanhui"
+        android:scaleType="fitXY"
+        app:layout_constraintLeft_toLeftOf="@+id/textView3"
+        app:layout_constraintRight_toLeftOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back_black_24dp"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+
+</android.support.constraint.ConstraintLayout>
+

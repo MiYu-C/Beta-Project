@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_RiLi"
+        android:icon="@drawable/ic_today_black_24dp"
+        android:title="@string/RiLi" />
+
+    <item
+        android:id="@+id/navigation_RiJi"
+        android:icon="@drawable/ic_riji_books_black_24dp"
+        android:title="@string/RiJi" />
+
+    <item
+        android:id="@+id/navigation_RiPaiGN"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="@string/RiPaiGN" />
+
+    <item
+        android:id="@+id/navigation_GengDuo"
+        android:icon="@drawable/ic_more_black_24dp"
+        android:title="@string/GengDuo"/>
+
+</menu>

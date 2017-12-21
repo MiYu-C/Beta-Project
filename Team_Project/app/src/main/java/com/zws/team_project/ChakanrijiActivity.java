@@ -1,6 +1,8 @@
 package com.zws.team_project;
 
+
 import android.app.Activity;
+
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -13,7 +15,9 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class ChakanrijiActivity extends AppCompatActivity {
+
     public static Activity ChakanrijiActivity;
+
     private String deleteDiary;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

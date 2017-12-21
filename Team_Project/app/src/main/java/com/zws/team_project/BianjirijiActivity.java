@@ -16,7 +16,10 @@ import java.util.Date;
 
 public class BianjirijiActivity extends AppCompatActivity {
     private static int flag;
+
     private boolean visibility;
+
+
     private String bianji_diary;
     private EditText alterDiaryTitle;
     private EditText alterDiaryEmotion;
@@ -39,10 +42,14 @@ public class BianjirijiActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if (isChecked) {
                     flag = 0;
+
                     visibility=false;
                 } else {
                     flag = 1;
                     visibility=true;
+
+                } else {
+                    flag = 1;
                 }
             }
         });
@@ -59,6 +66,7 @@ public class BianjirijiActivity extends AppCompatActivity {
                 formatter = new SimpleDateFormat("HH:mm:ss");
                 Date time = new Date(System.currentTimeMillis());
                 diaryTime = formatter.format(time);
+
                 MainActivity.onediary.setDiaryTitle(alterDiaryTitle.getText().toString());
                 MainActivity.onediary.setDiaryText(alterDiaryText.getText().toString());
                 MainActivity.onediary.setEmotion(alterDiaryEmotion.getText().toString());
@@ -99,6 +107,10 @@ public class BianjirijiActivity extends AppCompatActivity {
             ChakanrijiActivity chakanActivity = new ChakanrijiActivity();
             //chakanActivity.ChakanrijiActivity.finish();
             BianjirijiActivity.this.finish();*/
+
+            intent.setClass(BianjirijiActivity.this,MainActivity.class);
+            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(intent);
         }
     };
 }
