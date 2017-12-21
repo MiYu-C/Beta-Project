@@ -1,4 +1,4 @@
-#Fri Nov 17 15:22:46 CST 2017
-base.0=D\:\\AndriodProject\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+#Wed Dec 20 22:44:54 CST 2017
+base.0=E\:\\AS backup\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
-file.0=D\:\\AndriodProject\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
+file.0=E\:\\AS backup\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

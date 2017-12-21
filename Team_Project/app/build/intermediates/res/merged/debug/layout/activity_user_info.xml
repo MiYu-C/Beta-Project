@@ -149,6 +149,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="10dp"
         android:background="@android:color/background_light"
+        android:onClick="exit"
         android:text="退 出 登 录"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

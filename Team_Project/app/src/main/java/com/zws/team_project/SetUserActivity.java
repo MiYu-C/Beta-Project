@@ -9,14 +9,12 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-
 import android.widget.Toast;
 
 public class SetUserActivity extends AppCompatActivity {
 
     private String result=null;
     private EditText usernameET,emailET;
-    private EditText phoneNumber,passWord,passWord_2;
     private String phone,pwd,name="空",email="空",sex="空";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -84,7 +82,6 @@ public class SetUserActivity extends AppCompatActivity {
                 name = usernameET.getText().toString();
                 email = emailET.getText().toString();
                 System.out.println(phone+name+email);
-                System.out.println(phone);
 
                 final String new_user = "userName="+name+"&phoneNumber="+phone+"&passWord="+pwd+"&email="+email+"&sex="+sex;
                 /**

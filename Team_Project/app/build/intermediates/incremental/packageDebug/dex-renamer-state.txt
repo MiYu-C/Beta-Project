@@ -1,4 +1,7 @@
-#Wed Dec 20 23:35:47 CST 2017
-base.0=D\:\\AndriodProject\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=D\:\\AndriodProject\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+#Thu Dec 21 00:17:22 CST 2017
+base.0=E\:\\AS backup\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b8e56846d104648871f45e4c0a79854ad9038727
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\AS backup\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_78e30f27763d60c3f839ffa9eca9800fa8335bc7\\classes.dex
+base.1=E\:\\AS backup\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_78e30f27763d60c3f839ffa9eca9800fa8335bc7
+file.0=E\:\\AS backup\\Team_Project\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_b8e56846d104648871f45e4c0a79854ad9038727\\classes.dex
